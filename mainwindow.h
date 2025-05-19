@@ -24,8 +24,11 @@ private slots:
 
     void on_selectFile_clicked();
 
+    void on_selectMethod_currentIndexChanged(int index);
+
 private:
     Ui::MainWindow *ui;
     QString fileSrc;
+    bool lossy = 1;
 };
 #endif // MAINWINDOW_H

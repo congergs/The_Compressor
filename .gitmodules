@@ -1,3 +1,6 @@
 [submodule "audio-adpcm-cpp"]
 	path = audio-adpcm-cpp
 	url = https://github.com/Soreing/audio-adpcm-cpp
+[submodule "huffman-compression"]
+	path = huffman-compression
+	url = https://github.com/AshishYUO/huffman-compression
