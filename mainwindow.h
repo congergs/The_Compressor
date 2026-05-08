@@ -30,5 +30,6 @@ private:
     Ui::MainWindow *ui;
     QString fileSrc;
     bool lossy = 1;
+    bool fileSel = 0;
 };
 #endif // MAINWINDOW_H

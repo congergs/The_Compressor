@@ -78,9 +78,9 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>0</x>
       <y>200</y>
-      <width>481</width>
+      <width>801</width>
       <height>81</height>
      </rect>
     </property>
@@ -102,10 +102,10 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>0</x>
       <y>370</y>
-      <width>481</width>
-      <height>61</height>
+      <width>801</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
@@ -157,7 +157,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Supported formats: .wav for compression and .adp for decompression. .wav files should be either mono or stereo with 16 bit sample size.</string>
+     <string>Supported formats: .wav for compression and .bura/.burak respectively for lossy and lossless decompression.</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -204,6 +204,27 @@
     </property>
     <property name="text">
      <string>Method</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>510</y>
+      <width>801</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>.wav files should be either mono or stereo with 16 bit sample size.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
   </widget>
